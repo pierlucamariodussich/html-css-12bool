@@ -1,0 +1,33 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.debug [ class*="col-"]{
+  height:200px;
+  background-color: lightpink;
+  line-height: 200px;
+  border: 1px solid black;
+}
+
+.content{
+  font-size: 15px;
+  text-align: center;
+}
+
+.nested{
+  padding:5px;
+}
+
+.nested [ class*="col-"]{
+  background-color: red;
+  height: 188px;
+  border: 1px solid white;
+}
+
+.nested .col-2{
+  line-height: normal;
+
+
+}
